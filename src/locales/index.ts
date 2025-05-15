@@ -75,6 +75,7 @@ import yo_NG from './yo_NG';
 import zh_CN from './zh_CN';
 import zh_TW from './zh_TW';
 import zu_ZA from './zu_ZA';
+import bg from './bg';
 
 export { default as af_ZA } from './af_ZA';
 export { default as ar } from './ar';
@@ -148,6 +149,7 @@ export { default as yo_NG } from './yo_NG';
 export { default as zh_CN } from './zh_CN';
 export { default as zh_TW } from './zh_TW';
 export { default as zu_ZA } from './zu_ZA';
+export { default as bg } from './bg';
 
 export const allLocales = {
   af_ZA,
@@ -222,4 +224,5 @@ export const allLocales = {
   zh_CN,
   zh_TW,
   zu_ZA,
+  bg,
 } as const;
