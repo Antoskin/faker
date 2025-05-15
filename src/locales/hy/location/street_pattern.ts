@@ -1,1 +1,1 @@
-export default ['{{person.last_name.generic}} {{location.street_suffix}}'];
+export default [' {{location.street_suffix}}'];

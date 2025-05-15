@@ -4,7 +4,6 @@
  */
 import type { LocaleDefinition } from '../..';
 import metadata from './metadata';
-import person from './person';
 
 /**
  * The locale data for the `yo_NG` locale.
@@ -14,7 +13,6 @@ import person from './person';
  */
 const yo_NG: LocaleDefinition = {
   metadata,
-  person,
 };
 
 export default yo_NG;
