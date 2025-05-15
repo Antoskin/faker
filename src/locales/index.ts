@@ -76,6 +76,7 @@ import zh_CN from './zh_CN';
 import zh_TW from './zh_TW';
 import zu_ZA from './zu_ZA';
 import bg from './bg';
+import dk from './dk';
 
 export { default as af_ZA } from './af_ZA';
 export { default as ar } from './ar';
@@ -150,6 +151,7 @@ export { default as zh_CN } from './zh_CN';
 export { default as zh_TW } from './zh_TW';
 export { default as zu_ZA } from './zu_ZA';
 export { default as bg } from './bg';
+export { default as dk } from './dk';
 
 export const allLocales = {
   af_ZA,
@@ -225,4 +227,5 @@ export const allLocales = {
   zh_TW,
   zu_ZA,
   bg,
+  dk
 } as const;

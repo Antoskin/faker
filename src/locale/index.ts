@@ -76,6 +76,7 @@ import { faker as fakerZH_CN } from './zh_CN';
 import { faker as fakerZH_TW } from './zh_TW';
 import { faker as fakerZU_ZA } from './zu_ZA';
 import { faker as fakerBG } from './bg';
+import { faker as fakerDK } from './dk';
 
 export { faker as fakerAF_ZA } from './af_ZA';
 export { faker as fakerAR } from './ar';
@@ -150,6 +151,7 @@ export { faker as fakerZH_CN } from './zh_CN';
 export { faker as fakerZH_TW } from './zh_TW';
 export { faker as fakerZU_ZA } from './zu_ZA';
 export { faker as fakerBG } from './bg';
+export { faker as fakerDK } from './dk';
 
 
 export const allFakers = {
@@ -226,4 +228,5 @@ export const allFakers = {
   zh_TW: fakerZH_TW,
   zu_ZA: fakerZU_ZA,
   bg: fakerBG,
+  dk: fakerDK,
 } as const;
