@@ -1,6 +1,6 @@
 {
   "name": "address-faker",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "address faker",
   "scripts": {
     "clean": "rimraf coverage .eslintcache dist docs/.vitepress/cache docs/.vitepress/dist node_modules",
