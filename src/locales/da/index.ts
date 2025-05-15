@@ -3,15 +3,8 @@
  * Run 'pnpm run generate:locales' to update.
  */
 import type { LocaleDefinition } from '../..';
-import commerce from './commerce';
-import company from './company';
-import date from './date';
-import internet from './internet';
 import location from './location';
 import metadata from './metadata';
-import person from './person';
-import phone_number from './phone_number';
-import word from './word';
 
 /**
  * The locale data for the `da` locale.
@@ -20,15 +13,8 @@ import word from './word';
  * - Endonym: Dansk
  */
 const da: LocaleDefinition = {
-  commerce,
-  company,
-  date,
-  internet,
   location,
   metadata,
-  person,
-  phone_number,
-  word,
 };
 
 export default da;

@@ -1,7 +1,7 @@
 {
-  "name": "@faker-js/faker",
-  "version": "9.7.0",
-  "description": "Generate massive amounts of fake contextual data",
+  "name": "address-faker",
+  "version": "1.0.1",
+  "description": "address faker",
   "scripts": {
     "clean": "rimraf coverage .eslintcache dist docs/.vitepress/cache docs/.vitepress/dist node_modules",
     "build:clean": "rimraf dist",
@@ -154,5 +154,8 @@
       "cypress",
       "esbuild"
     ]
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.7.0"
   }
 }

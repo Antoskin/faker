@@ -3,12 +3,8 @@
  * Run 'pnpm run generate:locales' to update.
  */
 import type { LocaleDefinition } from '../..';
-import cell_phone from './cell_phone';
-import internet from './internet';
 import location from './location';
 import metadata from './metadata';
-import person from './person';
-import phone_number from './phone_number';
 
 /**
  * The locale data for the `en_GB` locale.
@@ -17,12 +13,8 @@ import phone_number from './phone_number';
  * - Endonym: English (Great Britain)
  */
 const en_GB: LocaleDefinition = {
-  cell_phone,
-  internet,
   location,
   metadata,
-  person,
-  phone_number,
 };
 
 export default en_GB;

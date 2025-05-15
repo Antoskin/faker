@@ -1,9 +1,8 @@
 import { randomSeed } from './internal/seed';
 import { DatatypeModule } from './modules/datatype';
-import { SimpleDateModule } from './modules/date';
 import { SimpleHelpersModule } from './modules/helpers';
-import { NumberModule } from './modules/number';
 import { StringModule } from './modules/string';
+import { NumberModule } from './modules/number';
 import type { Randomizer } from './randomizer';
 import { generateMersenne53Randomizer } from './utils/mersenne';
 
@@ -83,7 +82,6 @@ export class SimpleFaker {
   private readonly _randomizer: Randomizer;
 
   readonly datatype: DatatypeModule = new DatatypeModule(this);
-  readonly date: SimpleDateModule = new SimpleDateModule(this);
   readonly helpers: SimpleHelpersModule = new SimpleHelpersModule(this);
   readonly number: NumberModule = new NumberModule(this);
   readonly string: StringModule = new StringModule(this);

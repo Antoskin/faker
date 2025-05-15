@@ -3,12 +3,8 @@
  * Run 'pnpm run generate:locales' to update.
  */
 import type { LocaleDefinition } from '../..';
-import color from './color';
-import date from './date';
 import location from './location';
 import metadata from './metadata';
-import person from './person';
-import phone_number from './phone_number';
 
 /**
  * The locale data for the `zh_TW` locale.
@@ -17,12 +13,8 @@ import phone_number from './phone_number';
  * - Endonym: 中文 (臺灣)
  */
 const zh_TW: LocaleDefinition = {
-  color,
-  date,
   location,
   metadata,
-  person,
-  phone_number,
 };
 
 export default zh_TW;

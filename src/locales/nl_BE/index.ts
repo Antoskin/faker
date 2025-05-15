@@ -3,12 +3,8 @@
  * Run 'pnpm run generate:locales' to update.
  */
 import type { LocaleDefinition } from '../..';
-import company from './company';
-import internet from './internet';
 import location from './location';
 import metadata from './metadata';
-import person from './person';
-import phone_number from './phone_number';
 
 /**
  * The locale data for the `nl_BE` locale.
@@ -17,12 +13,8 @@ import phone_number from './phone_number';
  * - Endonym: Nederlands (België)
  */
 const nl_BE: LocaleDefinition = {
-  company,
-  internet,
   location,
   metadata,
-  person,
-  phone_number,
 };
 
 export default nl_BE;

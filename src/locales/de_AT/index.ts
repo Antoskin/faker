@@ -3,14 +3,8 @@
  * Run 'pnpm run generate:locales' to update.
  */
 import type { LocaleDefinition } from '../..';
-import cell_phone from './cell_phone';
-import company from './company';
-import internet from './internet';
 import location from './location';
 import metadata from './metadata';
-import person from './person';
-import phone_number from './phone_number';
-import word from './word';
 
 /**
  * The locale data for the `de_AT` locale.
@@ -19,14 +13,8 @@ import word from './word';
  * - Endonym: Deutsch (Österreich)
  */
 const de_AT: LocaleDefinition = {
-  cell_phone,
-  company,
-  internet,
   location,
   metadata,
-  person,
-  phone_number,
-  word,
 };
 
 export default de_AT;

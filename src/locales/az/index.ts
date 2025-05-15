@@ -3,15 +3,8 @@
  * Run 'pnpm run generate:locales' to update.
  */
 import type { LocaleDefinition } from '../..';
-import color from './color';
-import commerce from './commerce';
-import company from './company';
-import date from './date';
-import internet from './internet';
 import location from './location';
 import metadata from './metadata';
-import person from './person';
-import phone_number from './phone_number';
 
 /**
  * The locale data for the `az` locale.
@@ -20,15 +13,8 @@ import phone_number from './phone_number';
  * - Endonym: azərbaycan dili
  */
 const az: LocaleDefinition = {
-  color,
-  commerce,
-  company,
-  date,
-  internet,
   location,
   metadata,
-  person,
-  phone_number,
 };
 
 export default az;

@@ -4,11 +4,9 @@
  */
 import type { LocationDefinition } from '../../..';
 import country_code from './country_code';
-import time_zone from './time_zone';
 
 const location: LocationDefinition = {
   country_code,
-  time_zone,
 };
 
 export default location;

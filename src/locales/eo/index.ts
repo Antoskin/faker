@@ -3,17 +3,8 @@
  * Run 'pnpm run generate:locales' to update.
  */
 import type { LocaleDefinition } from '../..';
-import animal from './animal';
-import color from './color';
-import commerce from './commerce';
-import database from './database';
-import date from './date';
-import hacker from './hacker';
 import location from './location';
 import metadata from './metadata';
-import person from './person';
-import science from './science';
-import vehicle from './vehicle';
 
 /**
  * The locale data for the `eo` locale.
@@ -22,17 +13,8 @@ import vehicle from './vehicle';
  * - Endonym: Esperanto
  */
 const eo: LocaleDefinition = {
-  animal,
-  color,
-  commerce,
-  database,
-  date,
-  hacker,
   location,
   metadata,
-  person,
-  science,
-  vehicle,
 };
 
 export default eo;

@@ -3,16 +3,8 @@
  * Run 'pnpm run generate:locales' to update.
  */
 import type { LocaleDefinition } from '../..';
-import cell_phone from './cell_phone';
-import color from './color';
-import commerce from './commerce';
-import date from './date';
 import location from './location';
-import lorem from './lorem';
 import metadata from './metadata';
-import person from './person';
-import team from './team';
-import vehicle from './vehicle';
 
 /**
  * The locale data for the `ar` locale.
@@ -21,16 +13,8 @@ import vehicle from './vehicle';
  * - Endonym: اَلْعَرَبِيَّةُ
  */
 const ar: LocaleDefinition = {
-  cell_phone,
-  color,
-  commerce,
-  date,
   location,
-  lorem,
-  metadata,
-  person,
-  team,
-  vehicle,
+  metadata
 };
 
 export default ar;

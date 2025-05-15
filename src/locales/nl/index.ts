@@ -3,17 +3,8 @@
  * Run 'pnpm run generate:locales' to update.
  */
 import type { LocaleDefinition } from '../..';
-import color from './color';
-import commerce from './commerce';
-import company from './company';
-import date from './date';
-import hacker from './hacker';
-import internet from './internet';
 import location from './location';
-import lorem from './lorem';
 import metadata from './metadata';
-import person from './person';
-import phone_number from './phone_number';
 
 /**
  * The locale data for the `nl` locale.
@@ -22,17 +13,8 @@ import phone_number from './phone_number';
  * - Endonym: Nederlands
  */
 const nl: LocaleDefinition = {
-  color,
-  commerce,
-  company,
-  date,
-  hacker,
-  internet,
   location,
-  lorem,
   metadata,
-  person,
-  phone_number,
 };
 
 export default nl;

@@ -3,19 +3,8 @@
  * Run 'pnpm run generate:locales' to update.
  */
 import type { LocaleDefinition } from '../..';
-import animal from './animal';
-import cell_phone from './cell_phone';
-import color from './color';
-import company from './company';
-import database from './database';
-import date from './date';
-import internet from './internet';
 import location from './location';
-import lorem from './lorem';
 import metadata from './metadata';
-import person from './person';
-import phone_number from './phone_number';
-import word from './word';
 
 /**
  * The locale data for the `de` locale.
@@ -24,19 +13,8 @@ import word from './word';
  * - Endonym: Deutsch
  */
 const de: LocaleDefinition = {
-  animal,
-  cell_phone,
-  color,
-  company,
-  database,
-  date,
-  internet,
   location,
-  lorem,
   metadata,
-  person,
-  phone_number,
-  word,
 };
 
 export default de;

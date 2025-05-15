@@ -3,13 +3,8 @@
  * Run 'pnpm run generate:locales' to update.
  */
 import type { LocaleDefinition } from '../..';
-import color from './color';
-import commerce from './commerce';
-import date from './date';
 import location from './location';
-import lorem from './lorem';
 import metadata from './metadata';
-import person from './person';
 
 /**
  * The locale data for the `uz_UZ_latin` locale.
@@ -18,13 +13,8 @@ import person from './person';
  * - Endonym: O'zbekcha
  */
 const uz_UZ_latin: LocaleDefinition = {
-  color,
-  commerce,
-  date,
   location,
-  lorem,
   metadata,
-  person,
 };
 
 export default uz_UZ_latin;

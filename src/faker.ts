@@ -3,32 +3,9 @@ import { FakerError } from './errors/faker-error';
 import { deprecated } from './internal/deprecated';
 import type { LocaleProxy } from './internal/locale-proxy';
 import { createLocaleProxy } from './internal/locale-proxy';
-import { AirlineModule } from './modules/airline';
-import { AnimalModule } from './modules/animal';
-import { BookModule } from './modules/book';
-import { ColorModule } from './modules/color';
-import { CommerceModule } from './modules/commerce';
-import { CompanyModule } from './modules/company';
-import { DatabaseModule } from './modules/database';
-import { DateModule } from './modules/date';
-import { FinanceModule } from './modules/finance';
-import { FoodModule } from './modules/food';
-import { GitModule } from './modules/git';
-import { HackerModule } from './modules/hacker';
-import { HelpersModule } from './modules/helpers';
-import { ImageModule } from './modules/image';
-import { InternetModule } from './modules/internet';
 import type { LocationModule as AddressModule } from './modules/location';
+import { HelpersModule } from './modules/helpers';
 import { LocationModule } from './modules/location';
-import { LoremModule } from './modules/lorem';
-import { MusicModule } from './modules/music';
-import type { PersonModule as NameModule } from './modules/person';
-import { PersonModule } from './modules/person';
-import { PhoneModule } from './modules/phone';
-import { ScienceModule } from './modules/science';
-import { SystemModule } from './modules/system';
-import { VehicleModule } from './modules/vehicle';
-import { WordModule } from './modules/word';
 import type { Randomizer } from './randomizer';
 import { SimpleFaker } from './simple-faker';
 import { mergeLocales } from './utils/merge-locales';
@@ -62,30 +39,8 @@ export class Faker extends SimpleFaker {
   readonly rawDefinitions: LocaleDefinition;
   readonly definitions: LocaleProxy;
 
-  readonly airline: AirlineModule = new AirlineModule(this);
-  readonly animal: AnimalModule = new AnimalModule(this);
-  readonly book: BookModule = new BookModule(this);
-  readonly color: ColorModule = new ColorModule(this);
-  readonly commerce: CommerceModule = new CommerceModule(this);
-  readonly company: CompanyModule = new CompanyModule(this);
-  readonly database: DatabaseModule = new DatabaseModule(this);
-  readonly date: DateModule = new DateModule(this);
-  readonly finance = new FinanceModule(this);
-  readonly food = new FoodModule(this);
-  readonly git: GitModule = new GitModule(this);
-  readonly hacker: HackerModule = new HackerModule(this);
-  readonly helpers: HelpersModule = new HelpersModule(this);
-  readonly image: ImageModule = new ImageModule(this);
-  readonly internet: InternetModule = new InternetModule(this);
   readonly location: LocationModule = new LocationModule(this);
-  readonly lorem: LoremModule = new LoremModule(this);
-  readonly music: MusicModule = new MusicModule(this);
-  readonly person: PersonModule = new PersonModule(this);
-  readonly phone: PhoneModule = new PhoneModule(this);
-  readonly science: ScienceModule = new ScienceModule(this);
-  readonly system: SystemModule = new SystemModule(this);
-  readonly vehicle: VehicleModule = new VehicleModule(this);
-  readonly word: WordModule = new WordModule(this);
+  readonly helpers: HelpersModule = new HelpersModule(this);
 
   // Aliases
   /** @deprecated Use {@link Faker#location} instead */
@@ -97,17 +52,6 @@ export class Faker extends SimpleFaker {
       until: '10.0',
     });
     return this.location;
-  }
-
-  /** @deprecated Use {@link Faker#person} instead */
-  get name(): NameModule {
-    deprecated({
-      deprecated: 'faker.name',
-      proposed: 'faker.person',
-      since: '8.0',
-      until: '10.0',
-    });
-    return this.person;
   }
 
   /**

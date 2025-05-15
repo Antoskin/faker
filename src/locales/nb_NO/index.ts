@@ -3,16 +3,8 @@
  * Run 'pnpm run generate:locales' to update.
  */
 import type { LocaleDefinition } from '../..';
-import color from './color';
-import commerce from './commerce';
-import company from './company';
-import internet from './internet';
 import location from './location';
 import metadata from './metadata';
-import person from './person';
-import phone_number from './phone_number';
-import science from './science';
-import word from './word';
 
 /**
  * The locale data for the `nb_NO` locale.
@@ -21,16 +13,8 @@ import word from './word';
  * - Endonym: Norsk bokmål (Norge)
  */
 const nb_NO: LocaleDefinition = {
-  color,
-  commerce,
-  company,
-  internet,
   location,
   metadata,
-  person,
-  phone_number,
-  science,
-  word,
 };
 
 export default nb_NO;

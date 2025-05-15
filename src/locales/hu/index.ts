@@ -3,18 +3,8 @@
  * Run 'pnpm run generate:locales' to update.
  */
 import type { LocaleDefinition } from '../..';
-import animal from './animal';
-import color from './color';
-import commerce from './commerce';
-import company from './company';
-import date from './date';
-import finance from './finance';
-import internet from './internet';
 import location from './location';
 import metadata from './metadata';
-import person from './person';
-import phone_number from './phone_number';
-import word from './word';
 
 /**
  * The locale data for the `hu` locale.
@@ -23,18 +13,8 @@ import word from './word';
  * - Endonym: magyar
  */
 const hu: LocaleDefinition = {
-  animal,
-  color,
-  commerce,
-  company,
-  date,
-  finance,
-  internet,
   location,
   metadata,
-  person,
-  phone_number,
-  word,
 };
 
 export default hu;

@@ -3,10 +3,8 @@
  * Run 'pnpm run generate:locales' to update.
  */
 import type { LocaleDefinition } from '../..';
-import internet from './internet';
 import location from './location';
 import metadata from './metadata';
-import person from './person';
 
 /**
  * The locale data for the `fr_SN` locale.
@@ -15,10 +13,8 @@ import person from './person';
  * - Endonym: Français (Sénégal)
  */
 const fr_SN: LocaleDefinition = {
-  internet,
   location,
   metadata,
-  person,
 };
 
 export default fr_SN;
