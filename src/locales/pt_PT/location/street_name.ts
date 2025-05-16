@@ -1,0 +1,18 @@
+export default [
+  'Estrada Velha 349A',
+  'Estrada Velha 149A',
+  'Estrada Velha 249A',
+  'Fernão de Magalhães 3',
+  'Fernão de Magalhães 6',
+  'Fernão de Magalhães 9',
+  ' Cimo da Aldeia 76-224',
+  ' Cimo da Aldeia 74-124',
+  ' Cimo da Aldeia 78-324',
+  'Via Ceresio, 36',
+  'Via Ceresio, 38',
+  'Via Ceresio, 26',
+  'Profumeria Diomyra 16',
+  'Profumeria Diomyra 26',
+  'Profumeria Diomyra 36',
+  'Profumeria Diomyra 46',
+];

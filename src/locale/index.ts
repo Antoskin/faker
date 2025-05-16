@@ -77,6 +77,12 @@ import { faker as fakerZH_TW } from './zh_TW';
 import { faker as fakerZU_ZA } from './zu_ZA';
 import { faker as fakerBG } from './bg';
 import { faker as fakerDK } from './dk';
+import { faker as fakerEE } from './ee';
+import { faker as fakerKZ } from './kz'
+import { faker as fakerLT } from './lt'
+import { faker as fakerMT } from './mt'
+import { faker as fakerNZ } from './nz'
+import { faker as fakerSI } from './si'
 
 export { faker as fakerAF_ZA } from './af_ZA';
 export { faker as fakerAR } from './ar';
@@ -152,6 +158,12 @@ export { faker as fakerZH_TW } from './zh_TW';
 export { faker as fakerZU_ZA } from './zu_ZA';
 export { faker as fakerBG } from './bg';
 export { faker as fakerDK } from './dk';
+export { faker as fakerEE } from './ee';
+export { faker as fakerKZ } from './kz';
+export { faker as fakerLT } from './lt'
+export { faker as fakerMT } from './mt'
+export { faker as fakerNZ } from './nz'
+export { faker as fakerSI } from './si'
 
 
 export const allFakers = {
@@ -229,4 +241,10 @@ export const allFakers = {
   zu_ZA: fakerZU_ZA,
   bg: fakerBG,
   dk: fakerDK,
+  ee: fakerEE,
+  kz: fakerKZ,
+  lt: fakerLT,
+  mt: fakerMT,
+  nz: fakerNZ,
+  si: fakerSI,
 } as const;

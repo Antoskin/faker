@@ -1,4 +1,4 @@
 export default {
-  normal: '{{location.buildingNumber}} {{location.street}}',
-  full: '{{location.buildingNumber}} {{location.street}} {{location.secondaryAddress}}',
+  normal: '{{location.street_name}}',
+  full: '{{location.street_name}}',
 };

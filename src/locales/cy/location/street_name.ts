@@ -1,0 +1,22 @@
+export default [
+  'Makariou III Avenue 172',
+  'Gladstonos Street 135',
+  'Archbishop Kyprianou 23',
+  'Apostolou Pavlou Avenue 56',
+  '1st April Avenue 89',
+  'Eleftherias Street 10',
+  'Georgiou Griva Digeni 45',
+  'Spyrou Kyprianou 71',
+  'Themistokli Dervi 3',
+  'Archangelou Michael 45',
+  'Demostheni Severi Avenue 22',
+  'Andrea Drousioti 24',
+  'Tefkrou Anthia 62',
+  'Zenonos Kitieos 68',
+  'Georgiou A Street 97',
+  'Agiou Andreou 223',
+  'Kennedy Avenue 18',
+  'Nikis Avenue 3',
+  'Neofytou Nikolaidi 30',
+  'Agias Fylaxeos 65'
+];

@@ -1,4 +1,5 @@
 export default [
+  'Kaarina', 'Alavus', 'Espoo', 'Forssa', 'Haapajärvi', 'Hanko',
   'Espoo',
   'Helsinki',
   'Hyvinkää',

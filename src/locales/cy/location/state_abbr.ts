@@ -1,1 +1,3 @@
-export default ['NI', 'LI', 'LA', 'FA', 'PA', 'KY']
+export default [
+  '01'
+];

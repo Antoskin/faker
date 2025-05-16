@@ -77,6 +77,12 @@ import zh_TW from './zh_TW';
 import zu_ZA from './zu_ZA';
 import bg from './bg';
 import dk from './dk';
+import ee from './ee';
+import kz from './kz';
+import lt from './lt';
+import mt from './mt';
+import nz from './nz';
+import si from './si';
 
 export { default as af_ZA } from './af_ZA';
 export { default as ar } from './ar';
@@ -152,6 +158,12 @@ export { default as zh_TW } from './zh_TW';
 export { default as zu_ZA } from './zu_ZA';
 export { default as bg } from './bg';
 export { default as dk } from './dk';
+export { default as ee } from './ee';
+export { default as kz } from './kz';
+export { default as lt } from './lt';
+export { default as mt } from './mt';
+export { default as nz } from './nz';
+export { default as si } from './si';
 
 export const allLocales = {
   af_ZA,
@@ -226,6 +238,12 @@ export const allLocales = {
   zh_CN,
   zh_TW,
   zu_ZA,
-  bg,
-  dk
+  bg: bg,
+  dk: dk,
+  ee: ee,
+  kz: kz,
+  lt: lt,
+  mt: mt,
+  nz: nz,
+  si: si,
 } as const;

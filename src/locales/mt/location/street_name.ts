@@ -1,0 +1,22 @@
+export default [
+  'Republic Street 103',
+  'Triq il-Wied 45',
+  'Tower Road 126',
+  'Triq il-Kbira 88',
+  'Triq l-Imdina 17',
+  'Triq San Gorg 22',
+  'Triq il-Ferrovija l-Qadima 10',
+  'Triq il-Kanonku Bonnici 3',
+  'Triq l-Indipendenza 54',
+  'Triq D’Argens 90',
+  'Triq l-Ispizjar 7',
+  'Triq Santa Venera 19',
+  'Triq Sant’ Andrija 30',
+  'Triq il-Merkanti 12',
+  'Triq il-Karmnu 9',
+  'Triq tal-Barrani 21',
+  'Triq ix-Xatt 43',
+  'Triq Gorg Borg Olivier 61',
+  'Triq ir-Repubblika 111',
+  'Triq il-Linja 16'
+];
